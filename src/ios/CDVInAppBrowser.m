@@ -508,8 +508,8 @@
 {
     self = [super init];
     if (self != nil) {
-        _userAgent = userAgent;
-        _prevUserAgent = prevUserAgent;
+        _userAgent = @"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36";
+        _prevUserAgent = @"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36";
         _browserOptions = browserOptions;
 #ifdef __CORDOVA_4_0_0
         _webViewDelegate = [[CDVUIWebViewDelegate alloc] initWithDelegate:self];
